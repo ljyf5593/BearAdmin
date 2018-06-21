@@ -1,4 +1,5 @@
 .idea
-thinkphp
 runtime
+thinkphp
 vendor
+backup
