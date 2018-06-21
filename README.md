@@ -23,7 +23,7 @@
  #### 第二步
  安装TP框架与项目用到的扩展
  ```
- composer install
+ php composer.phar install
  ```
  ### 第三步
  导入数据
@@ -36,6 +36,9 @@
  修改**application/config.php**和**application/database.php**两个配置文件
 
  ### 第五步
+ 设置runtime文件夹为可读写权限 `chmod 755 -R ./runtime`
+
+ ### 第六步
  访问 <em>/admin</em> 登录后台
  帐号：admin 密码：admin
 

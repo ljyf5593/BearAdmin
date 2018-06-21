@@ -15,6 +15,12 @@
             "email": "liu21st@gmail.com"
         }
     ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
     "require": {
         "php": ">=5.4.0",
         "topthink/framework": "5.0.*",
